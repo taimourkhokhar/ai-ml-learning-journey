@@ -33,13 +33,14 @@
 
 
   #prime number
-num=int(input())
+num = int(input())
 
-if num>1:
-  for i in range(2,num):
-    if num%i==0:
-      print("Not a prime number")
+if num > 1:
+    for i in range(2, num):
+        if num % i == 0:
+            print("Not a prime number")
+            break
     else:
-      print("prime number")
+        print("Prime number")
 else:
-  print("not a prime number")
+    print("Not a prime number")
