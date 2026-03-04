@@ -36,34 +36,99 @@
 #list removes duplicates find largest find second largest without sorting
 
 
-nums=[4,7,1,9,3,7,4]
-unique_nums=[]
-for i in nums:
-  if i not in unique_nums:
-    unique_nums.append(i)
+# nums=[4,7,1,9,3,7,4]
+# unique_nums=[]
+# for i in nums:
+#   if i not in unique_nums:
+#     unique_nums.append(i)
 
-print("After duplicates remove", unique_nums)
+# print("After duplicates remove", unique_nums)
 
-#largest in list
-max=nums[0]
-for i in nums:
-  if i>max:
-    max=i
-print("largest is ",max)
+# #largest in list
+# max=nums[0]
+# for i in nums:
+#   if i>max:
+#     max=i
+# print("largest is ",max)
 
-#second largest in list
+# #second largest in list
 
-largest=float('-inf')
-second=float('-inf')
+# largest=float('-inf')
+# second=float('-inf')
 
-for i in nums:
-  if i>largest:
-    second=largest
-    largest=i
-  elif i>second and i!=largest:
-    second=i
+# for i in nums:
+#   if i>largest:
+#     second=largest
+#     largest=i
+#   elif i>second and i!=largest:
+#     second=i
 
-print("largest",largest)
-print("second largest",second)
+# print("largest",largest)
+# print("second largest",second)
 
 
+#Word frequency counter
+
+# user_input=['apple','mango','apple']
+
+# count={}
+
+# for word in user_input:
+#   if word in count:
+#     count[word]+=1
+#   else:
+#     count[word]=1
+
+# print(count)
+
+
+
+#student mark dictionary
+
+# students={
+#   "Ali":85,
+#   "Sara":92,
+#   "John":78
+# }
+
+# max=-1
+# students['Taimour']=99
+
+# for key in students:
+#   if students[key]>max:
+#     max=students[key]
+# print("Max value in the dictionary",max)
+
+# #for average
+
+# count=0
+
+# for key in students:
+#    count=count+students[key]
+#    print(count)
+
+
+# def filter_even(numbers):
+#   for i in range(numbers):
+#     if i%2==0:
+#       print(i)
+
+
+# filter_even(20)
+
+
+
+#prime number checker
+
+num = int(input("Enter a number: "))
+
+if num > 1:
+    for i in range(2, num):
+        if num % i == 0:
+            print("Its not a prime number")
+            break
+    else:
+        # This else belongs to the for loop!
+        print("Its a prime number")
+else:
+    print("Its not a prime number") 
