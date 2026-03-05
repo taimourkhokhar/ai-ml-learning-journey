@@ -132,3 +132,4 @@
 #         print("Its a prime number")
 # else:
 #     print("Its not a prime number") 
+
