@@ -29,3 +29,23 @@
 # print(product(user_input,user_input1))
 
 
+#Function that take a string as input and returns
+
+
+userInput=input("Enter a string")
+vowel_count=0
+consonants_count=0
+
+def counter(a):
+  global vowel_count,consonants_count
+  for i in a:
+    if i in 'aeiou':
+     vowel_count+=1
+    else:
+      consonants_count+=1
+
+
+counter(userInput)
+
+print(f"Vowels: {vowel_count}")
+print(f"consonant:{consonants_count}")
