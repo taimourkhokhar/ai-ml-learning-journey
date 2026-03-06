@@ -120,3 +120,20 @@
 
 
 
+#tuples and loops
+
+tuple=(3,5,7,2,8,10,5,5)
+
+count=0
+
+for i in tuple:
+  if i==5:
+    count=count+1
+
+
+
+for i in tuple:
+  if i>5:
+    print(i)
+
+print(f"Count is {count}")
