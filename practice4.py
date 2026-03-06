@@ -34,3 +34,20 @@ import random
 
 
 #File handling and exception
+
+# user=input("Enter any quote")
+# with open("D://ai engineer//app.txt",'w',encoding='utf-8') as f:
+#  f.write(user)
+
+
+with open("D://ai engineer//app.txt",'r',encoding='utf-8') as O:
+ new=O.read()
+ print(new)
+
+
+#check how many vowel in my string
+count=0
+for i in new:
+ if i in 'aeiou':
+  count=count+1
+print(f"So vowel count {count}")
