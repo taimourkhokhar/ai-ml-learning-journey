@@ -76,8 +76,8 @@ bangladesh = ["dhaka", "khulna", "rangpur"]
 #     print("You didn't finish 5 km race but hey congrats anyways! You still ran {i+1} miles")
 
 
-for i in range(1,6):
-  s=' '
-  for j in range(i):
-    s+='*'
-    print(s)
+# for i in range(1,6):
+#   s=' '
+#   for j in range(i):
+#     s+='*'
+#     print(s)
