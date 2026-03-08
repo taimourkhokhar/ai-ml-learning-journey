@@ -64,3 +64,45 @@
 #         counter+=l
 #       val.append(price)
 #       print(k,"==>",val,"==>",counter/4)
+
+
+
+
+# try:
+#   user=int(input("Enter a number"))
+#   result=10/user
+# except ValueError:
+#   print("Enter a valid number")
+# except ZeroDivisionError:
+#   print("You cannot divide by zero")
+# else:
+#   print(f"Result is {result}")
+# finally:
+#   print("Execution complete")
+
+class employee:
+  def __init__(self,id,name):
+    self.id=id
+    self.name=name
+
+  def display(self):
+   print(self.id,self.name)
+
+
+
+emp=employee(1,"coder")
+emp.display()
+
+
+del emp.id
+# Deleting the object itself
+try:
+    print(emp.id)
+except NameError:
+    print("emp.id is not defined")
+
+del emp
+try:
+    emp.display()  # it will gives error after deleting emp
+except NameError:
+    print("emp is not defined")
