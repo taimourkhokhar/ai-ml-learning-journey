@@ -36,30 +36,48 @@ bangladesh = ["dhaka", "khulna", "rangpur"]
 #     count=count+1
 #     print(count)
 
-for i in range(1,11):
-  if i%2==1:
-    print(i*i)
+# for i in range(1,11):
+#   if i%2==1:
+#     print(i*i)
 
 
-expense_list = [2340, 2500, 2100, 3100, 2980]
+# expense_list = [2340, 2500, 2100, 3100, 2980]
 
-expense=int(input("Enter a expense"))
+# expense=int(input("Enter a expense"))
 
-for i in expense_list:
-  if expense==expense_list[0]:
-    print("month is jan")
-    break
-  elif expense==expense_list[1]:
-    print("Month is feb")
-    break
-  elif expense==expense_list[2]:
-    print("Month is march")
-    break
-  elif expense==expense_list[3]:
-    print("month is april")
-    break
-  elif expense==expense_list[4]:
-    print("Month is may")
-    break
-  else:
-    print("Your input is worng")
+# for i in expense_list:
+#   if expense==expense_list[0]:
+#     print("month is jan")
+#     break
+#   elif expense==expense_list[1]:
+#     print("Month is feb")
+#     break
+#   elif expense==expense_list[2]:
+#     print("Month is march")
+#     break
+#   elif expense==expense_list[3]:
+#     print("month is april")
+#     break
+#   elif expense==expense_list[4]:
+#     print("Month is may")
+#     break
+#   else:
+#     print("Your input is worng")
+
+# for i in range(5):
+#     print(f"You ran {i+1} miles") 
+#     tired = input("Are you tired? ")
+#     if tired == 'yes':
+#         break
+
+# if i == 4:
+#     print("Hurray! You are a rock star! You just finished 5 km race!")
+# else:
+#     print("You didn't finish 5 km race but hey congrats anyways! You still ran {i+1} miles")
+
+
+for i in range(1,6):
+  s=' '
+  for j in range(i):
+    s+='*'
+    print(s)
