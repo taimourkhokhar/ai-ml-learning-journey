@@ -29,27 +29,39 @@
 #  nums.insert(0,last)
 # print(nums)
 
-cand=[2,3,5,1,3]
-ext=3
-val=[]
-
-def Candies(cand,ext):
-  for i in cand:
-    val.append(i+ext)
-
-  min=val[-1]
-  final=[]
-  for i in val:
-    if i<min:
-      min=i
-      ans="false"
-      final.append(ans)
-    else:
-      anse="true"
-      final.append(anse)
-  print("minimum is",min)
-  
-  
 
 
-Candies(cand,ext)
+#3 Dictionaires
+
+#1 Create a dictioinary of students and find the highest marks
+
+# students = {
+#     "Taimour": 85,
+#     "Alice": 92,
+#     "Bob": 78,
+#     "Charlie": 95,
+#     "Diana": 88
+# }
+
+
+# highest=0
+# name=""
+# for key,val in students.items():
+#   if val>highest:
+#     highest=val
+#     name=key
+# print("Higest score is ",name,highest)
+
+
+#2 Count a frequency of characters ina string using dictionary
+
+string="Hello again Hello "
+
+freq={}
+
+for i in string:
+  if i in freq:
+    freq[i]+=1
+  else:
+    freq[i]=1
+print(freq)
