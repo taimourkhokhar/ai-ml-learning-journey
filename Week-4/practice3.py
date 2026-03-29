@@ -65,3 +65,39 @@
 #   else:
 #     freq[i]=1
 # print(freq)
+
+# chars=["a","a","b","b","c","c","c"]
+# count=[]
+# for i in chars:
+#   if i not in count:
+#     count.append(i)
+#     count=chars.count(i)
+#     print(count)
+# print(count)
+
+
+
+# nums=[1,2,2,3,4]
+# new=[]
+# for i in nums:
+#   if i not in new:
+#     new.append(i)
+#     count=nums.count(i)
+#     print(count)
+# print(new)
+
+
+
+chars = ["a", "a", "b", "b", "c", "c", "c"]
+unique_chars = []
+counts = []
+
+for i in chars:
+    if i not in unique_chars:
+        unique_chars.append(i)
+        # Count how many times 'i' appears in the original list
+        count_value = chars.count(i)
+        counts.append(count_value)
+        print(f"Character {i} appears {count_value} times")
+
+print("Final counts list:", counts)
