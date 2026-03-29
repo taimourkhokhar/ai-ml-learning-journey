@@ -95,7 +95,6 @@ counts = []
 for i in chars:
     if i not in unique_chars:
         unique_chars.append(i)
-        # Count how many times 'i' appears in the original list
         count_value = chars.count(i)
         counts.append(count_value)
         print(f"Character {i} appears {count_value} times")
