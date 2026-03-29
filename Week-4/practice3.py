@@ -55,13 +55,13 @@
 
 #2 Count a frequency of characters ina string using dictionary
 
-string="Hello again Hello "
+# string="Hello again Hello "
 
-freq={}
+# freq={}
 
-for i in string:
-  if i in freq:
-    freq[i]+=1
-  else:
-    freq[i]=1
-print(freq)
+# for i in string:
+#   if i in freq:
+#     freq[i]+=1
+#   else:
+#     freq[i]=1
+# print(freq)
