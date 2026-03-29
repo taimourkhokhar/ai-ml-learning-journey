@@ -91,7 +91,7 @@
 chars = ["a", "a", "b", "b", "c", "c", "c"]
 unique_chars = []
 counts = []
-
+#count the string and return count
 for i in chars:
     if i not in unique_chars:
         unique_chars.append(i)
