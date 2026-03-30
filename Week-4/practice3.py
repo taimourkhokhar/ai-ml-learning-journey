@@ -100,3 +100,15 @@
 #         print(f"Character {i} appears {count_value} times")
 
 # print("Final counts list:", counts)
+chars = ["a", "a", "b", "b", "c", "c", "c"]
+unique_chars = []
+counts = []
+#count the string and return count
+for i in chars:
+    if i not in unique_chars:
+        unique_chars.append(i)
+        count_value = chars.count(i)
+        counts.append(count_value)
+        print(f"Character {i} appears {count_value} times")
+
+print("Final counts list:", counts)
