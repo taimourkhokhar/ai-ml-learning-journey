@@ -89,17 +89,17 @@ d=np.array([
 # print(newly)
 
 
-transactions=np.array([
-  [101,'Mohan',250.50,'2022-08-05'],
-  [102,'Bob',150.00,'2023-08-02'],
-  [103,'Fatima',300.75,'2023-08-01'],
-  [104,'David',400.20,'2023-08-03'],
-  [105,'Aryan',400.20,'2023-08-04']
-])
+# transactions=np.array([
+#   [101,'Mohan',250.50,'2022-08-05'],
+#   [102,'Bob',150.00,'2023-08-02'],
+#   [103,'Fatima',300.75,'2023-08-01'],
+#   [104,'David',400.20,'2023-08-03'],
+#   [105,'Aryan',400.20,'2023-08-04']
+# ])
 
-new=transactions[:,2].astype('float')
+# new=transactions[:,2].astype('float')
 
-print(new)
+# print(new)
 
-ans=[transactions[:,0]=='102']
-print(ans)
+# ans=[transactions[:,0]=='102']
+# print(ans)
