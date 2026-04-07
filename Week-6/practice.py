@@ -190,3 +190,30 @@
 # for i in nums:
 #   sum+=i
 # print(sum)
+
+# Find the maximum and minimum value in a list.
+
+# nums=[1,2,3,4,5]
+
+# max=nums[0]
+# min=nums[0]
+
+# for i in nums:
+#   if i>max:
+#     max=i
+#   if i<min:
+#     min=i
+# print(f"max and min is",min,max)
+
+
+
+# Remove duplicates from a list.
+
+# nums=[2,2,2,1,2,3,4,]
+# without_duplicates=[]
+
+# for i in nums:
+#   if i not in without_duplicates:
+#     without_duplicates.append(i)
+
+# print(without_duplicates)
