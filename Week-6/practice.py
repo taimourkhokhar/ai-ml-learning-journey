@@ -217,3 +217,18 @@
 #     without_duplicates.append(i)
 
 # print(without_duplicates)
+
+# def reverseVowels(s):
+#     s_list = list(s)
+#     vowels_in_s = []
+#     for char in s_list:
+#         if char in 'aeiouAEIOU':
+#             vowels_in_s.append(char)
+#     vowels_in_s.reverse()
+#     vowel_index = 0
+#     for i in range(len(s_list)):
+#         if s_list[i] in 'aeiouAEIOU':
+#             s_list[i] = vowels_in_s[vowel_index]
+#             vowel_index += 1
+            
+#     return "".join(s_list)
