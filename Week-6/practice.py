@@ -232,3 +232,15 @@
 #             vowel_index += 1
             
 #     return "".join(s_list)
+
+#take alist of numbers and create new with only even numbers
+
+# nums=[1,2,3,4,5,6]
+
+# even=[]
+
+# for i in nums:
+#   if i%2==0:
+#     even.append(i)
+
+# print(even)
