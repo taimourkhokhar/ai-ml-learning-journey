@@ -50,3 +50,22 @@
 # #   print(tp.count(i))
 
 # print(tp.index(4))
+
+# s="  hello world "
+# word=s.split()
+
+# ls=list(word)
+
+# ls.reverse()
+
+# new=" ".join(ls)
+
+# print(new)
+
+
+# text = "Python is  versatile and   powerful"
+# word_count = text.split()
+# print(word_count)  # Output: 5
+
+# for i in word_count:
+  
