@@ -140,17 +140,69 @@ def fib(n):
 
 # print(dic["score"]['new'])
 
-def merge_dicts(d1, d2):
+# def merge_dicts(d1, d2):
 
-    result = d1.copy()
+#     result = d1.copy()
     
-    for key, value in d2.items():
-        if key in result:
-            result[key] += value
-        else:
-            result[key] = value
+#     for key, value in d2.items():
+#         if key in result:
+#             result[key] += value
+#         else:
+#             result[key] = value
             
-    return result
-dict_a = {'apples': 5, 'oranges': 2}
-dict_b = {'apples': 3, 'bananas': 10}
-print(merge_dicts(dict_a, dict_b))
+#     return result
+# dict_a = {'apples': 5, 'oranges': 2}
+# dict_b = {'apples': 3, 'bananas': 10}
+# print(merge_dicts(dict_a, dict_b))
+
+#2 use lamda with map() to square all numbers in a list
+
+# ls=[1,2,3,4,5]
+
+# new=list(map(lambda x:x*x,ls))
+# print(new)
+
+#Use lambda with filter() to get even numbers from a list.
+
+# ls=[1,2,3,4,5]
+# nw=list(filter(lambda x:x%2==0,ls))
+
+# print(nw)
+
+# ls=[(1,5),(2,3),(4,1)]
+
+# new=list(sorted(ls,key=lambda x:x[1]))
+
+# print(new)
+
+# n1=10
+
+# new=lambda x : 'high' if x >10 else 'low'
+
+# print(new(n1))
+
+# ls=['taimour','asad','jimmy']
+
+# new=sorted(ls,key=lambda x:len(x))
+
+# print(new)
+
+# names = ["Taimour", "Asad", "Jimmy"]
+
+# new=sorted(names,key=lambda x:x[-1])
+
+# print(new)
+
+# prices = [25, 60, 10, 105, 45, 80]
+
+# nw=list(filter(lambda x:x>50,prices))
+# print(nw)
+
+# products = [
+#     {"name": "Laptop", "price": 1200},
+#     {"name": "Mouse", "price": 25},
+#     {"name": "Monitor", "price": 300}
+# ]
+
+# new=sorted(products,key=lambda x:x['price'])
+# print(new)
