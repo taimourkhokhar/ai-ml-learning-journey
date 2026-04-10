@@ -206,3 +206,28 @@ def fib(n):
 
 # new=sorted(products,key=lambda x:x['price'])
 # print(new)
+
+
+# import math
+
+# print(math.sqrt(5))
+# print(math.factorial(5))
+
+# import random
+
+# print(random.random())
+
+# ls=[1,2,3,4]
+
+# print(random.choices(ls))
+
+# import datetime
+
+# now=datetime.datetime.now()
+# print(now)
+
+# import requests
+
+# now=requests.get('https://dummyjson.com/test')
+
+# print(now.status_code)
