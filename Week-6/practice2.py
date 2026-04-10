@@ -76,3 +76,6 @@
 
 # except Exception as e:
 #     print("Error:", e)
+
+# nums = [1, 2, 3, 4]
+
