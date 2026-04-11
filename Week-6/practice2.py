@@ -79,3 +79,120 @@
 
 # nums = [1, 2, 3, 4]
 
+# nums=[0,0,0,1,1,1]
+# index=0
+
+# for i in range(len(nums)):#6
+#   if nums[i]!=0:#
+#     temp=nums[i]#here temp has 1 1 1 
+#     nums[i]=nums[index]# here 1 1 1 is put at 0 index
+#     nums[index]=temp#here at 0 index 1 1 1 put
+#     index+=1
+
+# print(nums)
+
+
+
+# nums = [1,2,0,0,5]
+# def passe(nums):
+#  small=float('inf')
+#  mid=float('inf')
+#  third=float('inf')
+#  print(third)
+#  for i in nums:
+#   if i<=small:
+#    small=i #here small has 1
+#   elif i<=mid:
+#    mid=i#here mid has 2
+#   #  print(mid)
+#   else:
+#    return True
+#  return False
+
+# print(passe(nums))
+
+
+# nums=[0,0,0,1,1,1]
+# count=0
+# for i in nums:
+#   if i==0:
+#     count+=1
+# print(count)
+
+
+# class vehicle:
+#   def __init__(self,brand):
+#     self.brand=brand
+#   def start(self):
+#     print(f"{self.brand} start")
+# class Car(vehicle):
+#   def __init__(self, brand,type):
+#     self.type=type
+#     super().__init__(brand)
+#   def fuel(self):
+#     print(f"fuel type is {self.type}")
+
+# st=Car("Audi","Diesel")
+# st.start()
+# st.fuel()
+
+# class person:
+#   def __init__(self,name,age):
+#       self.name=name
+#       self.age=age
+#   def introduce(self):
+#      print(f"{self.name} and {self.age}")
+# class student(person):
+#    def __init__(self, name, age,grade):
+#       self.grade=grade
+#       super().__init__(name, age)
+#    def introduce(self):
+#       super().introduce()
+#       print(f"{self.name} and {self.age} and {self.grade}")
+
+# st=student("taimour",22,"B+")
+# st.introduce()
+# class Animal:
+#   def __init__(self):
+#     pass
+#   def sound(self):
+#     print("Animal make sound")
+# class Dog(Animal):
+#   def __init__(self):
+#     super().__init__()
+#   def sound(self):
+#     super().sound()
+#     print("Bark")
+# class Cat(Animal):
+#   def __init__(self):
+#     super().__init__()
+#   def sound(self):
+#     print("Meow")
+
+# st=Dog()
+# st.sound()
+
+# nt=Cat()
+# nt.sound()
+# class Employee:
+#     def __init__(self, name, salary):
+#         self.name = name
+#         self.salary = salary
+
+#     def show(self):
+#         print(f"Name: {self.name}, Salary: {self.salary}")
+
+
+# class Manager(Employee):
+#     def __init__(self, name, salary, team_size):
+#           # calling parent constructor
+#         self.team_size = team_size
+
+#     def show(self):
+#         super().show()
+#         print(f"Team Size: {self.team_size}")
+
+
+# # Test
+# m = Manager("Taimour", 50000, 5)
+# m.show()
