@@ -40,3 +40,43 @@
 #     result+=ch
 
 # print(len(result))
+
+
+# counter=[1,2,2,3]
+# count={}
+# for i in counter:
+#   if i in count:
+#     count[i]+=1
+#   else:
+#     count[i]=1
+
+# print(count)
+# from collections import Counter
+
+# counter=[1,2,2,3]
+# new=Counter(counter)
+# print(new)
+
+str1 = "ABCABC"
+str2 = "ABC"
+# def repeat(s):
+#  seen=set()
+#  for i in s:
+#   if i in seen:
+#    return i
+#   seen.add(i)
+#  return None
+
+# print(repeat(str1))
+
+# def check(str1,str2):
+#  dup=[char for char in set(str1) if str1.count(char)>1]
+#  if not dup:
+#   return ""
+#  new="".join(dup)
+#  if new in str2:
+#   return new
+#  else:
+#   return ""
+
+# print(check(str1,str2))
