@@ -126,9 +126,39 @@
 # inverted={value:key for key,value in my_dict.items()}
 # print(inverted)
 
+#tiem complexity of 
+
+# for i in range(n):
+#   print(i)
+
+# #so for this BIG O will be O(n) because s input grow numper of iterations also grow
+
+# for i in range(n):
+#     for j in range(n):
+#         print(i, j)
+
+# #for this nested loop big o will be O(n)2 because of its run two times
 
 
+# for i in range(n):
+#     print(i)
+
+# for j in range(n):
+#     print(j)
+
+# #for this big o will only O(n) it has sperate seperate not a nested strucure
   
+
+# i = 1
+# while i < n:
+#     i *= 2
+
+# # in this case it will lw log(n)
+
+
+# #worst case comlexity of searching
+
+# #in list worst case like we just know element not its index so if element is present in lst we have to iterate from start ot end ..
 
 
 
