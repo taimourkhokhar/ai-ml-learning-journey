@@ -68,9 +68,66 @@
 # for i in nw:
 #   print(i)
 
-f=open("D:/ai engineer roadmap/funny.txt",'r')
-new=f.read()
-f.close()
-nw=iter(new.splitlines())
-print(next(nw))
-print(next(nw))
+# f=open("D:/ai engineer roadmap/funny.txt",'r')
+# new=f.read()
+# f.close()
+# nw=iter(new.splitlines())
+# print(next(nw))
+# print(next(nw))
+
+# marks = {"Ali": 85, "Sara": 92, "John": 78, "Ayesha": 88}
+
+# print(max(marks))
+
+# avg=0
+
+# for key,val in marks.items():
+#   avg+=val
+#   length=len(marks)
+#   ans=avg/length
+#   print(ans)
+
+
+# marks["Taimour"]=95
+# print(marks)
+
+# from collections import Counter
+
+# text = "apple banana apple orange banana apple"
+
+# ans=Counter(text.split())
+# print(ans)
+
+# text = "apple banana apple orange banana apple"
+# words=text.split()
+# print(words)
+# dic={}
+# for word in words:
+#    if word in dic:
+#       dic[word]+=1
+#    else:
+#       dic[word]=1
+
+# print(dic) 
+
+# dict1 = {"a": 10, "b": 20}
+# dict2 = {"b": 5, "c": 15}
+
+# merge=dict1.copy()
+
+# for i,v in dict2.items():
+#   if i in merge:
+#     merge[i]+=v
+#   else:
+#     merge[i]=v
+
+# print(merge)
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+inverted={value:key for key,value in my_dict.items()}
+print(inverted)
+
+
+for key,val in my_dict.items():
+  val,key=key,val
+
+print(my_dict)
