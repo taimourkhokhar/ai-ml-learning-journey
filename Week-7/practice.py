@@ -122,12 +122,15 @@
 #     merge[i]=v
 
 # print(merge)
-my_dict = {'a': 1, 'b': 2, 'c': 3}
-inverted={value:key for key,value in my_dict.items()}
-print(inverted)
+# my_dict = {'a': 1, 'b': 2, 'c': 3}
+# inverted={value:key for key,value in my_dict.items()}
+# print(inverted)
 
 
-for key,val in my_dict.items():
-  val,key=key,val
 
-print(my_dict)
+  
+
+
+
+
+
