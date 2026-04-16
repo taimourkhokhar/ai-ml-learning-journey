@@ -84,3 +84,20 @@
 # print(next(gen))
 # print(next(gen))
 # print(next(gen))
+
+s = "axc"
+t = "ahbgdc"
+
+length=max(len(s),len(t))
+i=0
+def check(s,t):
+ for i in range(len(s)):
+   if s[i] not in t:
+    i=i+1
+    return False
+
+ return True
+ 
+
+print(check(s,t))
+ 
