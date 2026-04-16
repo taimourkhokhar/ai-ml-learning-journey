@@ -85,19 +85,132 @@
 # print(next(gen))
 # print(next(gen))
 
-s = "axc"
-t = "ahbgdc"
+# s = "axc"
+# t = "ahbgdc"
 
-length=max(len(s),len(t))
-i=0
-def check(s,t):
- for i in range(len(s)):
-   if s[i] not in t:
-    i=i+1
-    return False
+# length=max(len(s),len(t))
+# i=0
+# def check(s,t):
+#  for i in range(len(s)):
+#    if s[i] not in t:
+#     i=i+1
+#     return False
 
- return True
+#  return True
  
 
-print(check(s,t))
- 
+# nums=[1,2,3,4,5,6]
+# new=[x*2 for x in nums  if x%2==0]
+# print(new)
+
+
+# words = ["apple", "banana", "cherry", "kiwi"]
+
+# new=[x for x in words if len(x)>5]
+
+# print(new)
+
+# new=[x for x in range(10) if x%3!=0]
+# print(new)
+
+# def outer(func):
+#   def wrapper(*args,**kwargs):
+#      print("Started")
+#      result=func(*args,**kwargs)
+#      print("Function ended")
+#      return result
+#   return wrapper
+
+# @outer
+# def hello():
+#    print("hello")
+
+# hello()
+
+# def outer(func):
+#   def inner(num):
+#     if num<0:
+#      return "Invalid input"
+#     return func(num)
+#   return inner
+
+# num=-1
+# @outer
+# def caller(num):
+#   return "hello"+str(num)
+
+# print(caller(num))
+
+# import time
+
+# def outer(func):
+#   def wrapper(*args,**kwargs):
+#     start=time.time()
+#     result=func(*args,**kwargs)
+#     end=time.time()
+#     print(f"total time is {(end)-(start)*1000} s")
+#     return result
+#   return wrapper
+
+# @outer
+
+# def looper(n):
+#   for i in range(1,n):
+#     print(i*i)
+
+
+# looper(1000)
+
+# new={val:val*val for val in range(1,6) }
+# print(new)
+
+# words = ["apple", "banana", "cherry"]
+
+
+# new={val:len(val) for  val in words}
+
+# print(new)
+
+# dic={}
+
+# for i in words:
+#   dic[i]=len(i)
+# print(dic)
+
+# nums = [1, 2, 3, 4, 5]
+
+# new={val:val*val*val for val in nums if val%2==0}
+
+# print(new)
+
+
+# new={x*x for x in range(1,10)}
+# print(type(new))
+
+# nums = [1, 2, 2, 3, 4, 4, 5]
+
+# new={x*10 for x in nums}
+
+# print(new)
+
+# text = "programming"
+
+# new={x for x in text if x in 'aeiou'}
+
+# print(new)
+
+# nums = [1, 2, 3, 4, 5]
+
+# new=tuple(x for x in nums if x%2==0)
+
+# print(new)
+
+# users = [
+#     {"name": "Ali", "age": 20},
+#     {"name": "Sara", "age": 17},
+#     {"name": "Ahmed", "age": 25}
+# ]
+
+# new={val['name']:'adult' if val["age"]>18 else 'minor' for val in users}
+
+# print(new)
