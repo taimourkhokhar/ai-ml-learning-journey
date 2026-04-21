@@ -12,3 +12,8 @@
 #   print("Palindrome")
 # else:
 #   print("not")
+
+
+# s = "Hello World "
+# new=s.split()
+# print(len(new[-1]))
