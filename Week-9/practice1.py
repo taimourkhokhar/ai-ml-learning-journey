@@ -25,17 +25,42 @@
 #     right-=1
 # print("yes its palindrom")
   
-height = [1,8,6,2,5,4,8,3,7]
-max_value=0
-left=0
-right=len(height)-1
-while left<right:
-  width=right-left
-  cur_height=min(height[left],height[right])
-  area=cur_height*width
-  max_value=max(max_value,area)
-  if height[left]<height[right]:
-    left+=1
-  else:
-    right-=1
-print(max_value)
+# height = [1,8,6,2,5,4,8,3,7]
+# max_value=0
+# left=0
+# right=len(height)-1
+# while left<right:
+#   width=right-left
+#   cur_height=min(height[left],height[right])
+#   area=cur_height*width
+#   max_value=max(max_value,area)
+#   if height[left]<height[right]:
+#     left+=1
+#   else:
+#     right-=1
+# print(max_value)
+
+
+#iterating over numpy array
+
+import numpy as np
+
+arr = np.array([[1, 2, 3],[4,5,6]])
+
+# for x in arr:
+#   for y in x:
+#     print(y)
+
+
+
+# arr = np.array([[[1, 2, 3],[4,5,6],[7,8,9]]])
+
+# for x in arr:
+#   for y in x:
+#     for z in y:
+#       print(z)
+
+# arr = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])### for iterating if dimension more than 3
+
+# for x in np.nditer(arr):
+#   print(x)
