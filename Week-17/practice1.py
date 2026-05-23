@@ -40,3 +40,34 @@ print(upr)
 
 
 
+#list
+fruit=["mango","orange","apple","blueberry"]
+print(fruit[0])
+print(fruit[-1])
+
+numbers = [10,20,30,40,50]
+numbers.append(60)
+print(numbers)
+
+numbers = [5,10,15,20,25]
+
+sum=0
+for num in numbers:
+  sum+=num
+
+print("sum of numbers is ",sum)
+
+names = ["Ali","Sara","Ahmed","Fatima"]
+
+for name in names:
+  print(name)
+
+numbers = [1,2,3,4,5]
+
+sume=[]
+
+for num in numbers:
+  sumer=num*num
+  sume.append(sumer)
+
+print(sume)
