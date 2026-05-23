@@ -41,20 +41,36 @@
 #     prefix[i]=nums[i-1]+nums[i]
     
 # print(prefix)
-nums = [1,7,3,6,5,6]
+# nums = [1,7,3,6,5,6]
 
-totalsum=0
+# totalsum=0
 
-leftsum=0
-rightsum=0
-leftptr=0
+# leftsum=0
+# rightsum=0
+# leftptr=0
 
-for i in nums:
-    totalsum+=i
+# for i in nums:
+#     totalsum+=i
 
-for left in range(len(nums)):
-    leftsum=sum(nums[:left])
-    rightsum=sum(nums[left + 1:])
-    if leftsum==rightsum:
-        print(left)
+# for left in range(len(nums)):
+#     leftsum=sum(nums[:left])
+#     rightsum=sum(nums[left + 1:])
+#     if leftsum==rightsum:
+#         print(left)
 
+
+
+
+# nums=[2,4,1,7,3]
+# prefix=[0]*len(nums)
+# prefix[0]=nums[0]
+# ans=0
+
+# for i in range(1,len(nums)):
+#     prefix[i]=prefix[i-1]+nums[i]
+# #for 0-2
+
+# ans=prefix[3]-prefix[0]
+    
+# print(prefix)
+# print(ans)
