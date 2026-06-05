@@ -1,23 +1,23 @@
-pattern = "abba"
-s = "dog cat cat dog"
-words = s.split()
+# pattern = "abba"
+# s = "dog cat cat dog"
+# words = s.split()
 
-def wordPattern(pattern, s):
-    words = s.split()
-    if len(pattern) != len(words):
-        return False
+# def wordPattern(pattern, s):
+#     words = s.split()
+#     if len(pattern) != len(words):
+#         return False
 
-    char_to_word = {}
-    word_to_char = {}
-    for char, word in zip(pattern, words):
-        if char in char_to_word and char_to_word[char] != word:
-            return False
+#     char_to_word = {}
+#     word_to_char = {}
+#     for char, word in zip(pattern, words):
+#         if char in char_to_word and char_to_word[char] != word:
+#             return False
         
-        if word in word_to_char and word_to_char[word] != char:
-            return False
-        char_to_word[char] = word
-        word_to_char[word] = char
+#         if word in word_to_char and word_to_char[word] != char:
+#             return False
+#         char_to_word[char] = word
+#         word_to_char[word] = char
 
-    return True
+#     return True
 
-print(wordPattern(pattern, s)) # Output: True
+# print(wordPattern(pattern, s)) # Output: True
