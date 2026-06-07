@@ -21,3 +21,26 @@
 #     return True
 
 # print(wordPattern(pattern, s)) # Output: True
+
+
+
+
+
+s = "leet**cod*e"
+
+
+
+stack=[]
+
+
+for char in s:
+  if char == "*":
+    stack.pop()
+  else:
+    stack.append(char)
+    
+    "".join(stack)
+    print(stack)
+
+
+
