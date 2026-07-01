@@ -1,6 +1,8 @@
 import sys
 import os
 
+#simple student management system
+
 class StudentManagement:
     def __init__(self, filename="student.txt"):
         self.filename = filename
