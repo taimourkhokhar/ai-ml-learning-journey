@@ -1,3 +1,6 @@
+# simple practice excercises 
+
+
 # class Person:
 #   def __init__(self,name,age,graduate=False):
 #     self.name=name
