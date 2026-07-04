@@ -84,20 +84,20 @@
 # for num in rev:
 #   print(num)
 
-# class infiniteColors:
-#   """An iterator that loops over a list of colors forever"""
-#   def __init__(self,colors):
-#     self.colors=colors
-#     self.index=0
-#   def __iter__(self):
-#     return self
-#   def __next__(self):
-#     color=self.colors[self.index]
+class infiniteColors:
+  """An iterator that loops over a list of colors forever"""
+  def __init__(self,colors):
+    self.colors=colors
+    self.index=0
+  def __iter__(self):
+    return self
+  def __next__(self):
+    color=self.colors[self.index]
 
-#     self.index=(self.index+1)%len(self.colors)
-#     return color
+    self.index=(self.index+1)%len(self.colors)
+    return color
   
-# color_iterator=infiniteColors(["Red","Green","Blue"])
+color_iterator=infiniteColors(["Red","Green","Blue"])
 
-# for color in color_iterator:
-#   print(color)
+for color in color_iterator:
+  print(color)
