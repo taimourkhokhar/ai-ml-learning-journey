@@ -50,14 +50,14 @@
 
 #generator that yields the multiplication of table of a given number
 
-def table(n):
-  for i in range(1,11):
-     yield i*n
+# def table(n):
+#   for i in range(1,11):
+#      yield i*n
 
 
-my_table=table(5)
+# my_table=table(5)
 
-print(next(my_table))
-print(next(my_table))
-print(next(my_table))
-print(next(my_table))
+# print(next(my_table))
+# print(next(my_table))
+# print(next(my_table))
+# print(next(my_table))
