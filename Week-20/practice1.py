@@ -38,8 +38,11 @@ merge=[]
 
 
 
-
-
-
+s = "a good   example"
+nw=[]
+for i in reversed(s.split()):
+   nw.append(i)
+result=" ".join(nw)
+print(result)
 
 
