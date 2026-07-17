@@ -38,11 +38,29 @@ merge=[]
 
 
 
-s = "a good   example"
-nw=[]
-for i in reversed(s.split()):
-   nw.append(i)
-result=" ".join(nw)
-print(result)
+# s = "a good   example"
+# nw=[]
+# for i in reversed(s.split()):
+#    nw.append(i)
+# result=" ".join(nw)
+# print(result)
 
 
+#increasing triplet sequence
+nums = [1,2,3,4,5]
+def increase(nums):
+ first=float('inf')
+ second=float('inf')
+ print(first,second)
+ for num in nums:
+
+   if num<=first:
+      first=num
+      print(first)
+   elif num<=second:
+      second=num
+      print(second)
+   else:
+      return True
+ return False
+print(increase(nums))
