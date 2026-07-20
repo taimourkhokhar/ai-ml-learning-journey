@@ -92,19 +92,19 @@ merge=[]
 #     print("false")
 
 
-nums = [4,4,1,3,1,3,2,2,5,5,1,5,2,1,2,3,5,4]
-k = 2
-count=0
-left=0
-right=len(nums)-1
+# nums = [4,4,1,3,1,3,2,2,5,5,1,5,2,1,2,3,5,4]
+# k = 2
+# count=0
+# left=0
+# right=len(nums)-1
 
-while left<right:
-  if nums[left]+nums[right]==k:
-    count+=1
-    left+=1
-    right-=1
-  else:
-    left+=1
-    right-=1
+# while left<right:
+#   if nums[left]+nums[right]==k:
+#     count+=1
+#     left+=1
+#     right-=1
+#   else:
+#     left+=1
+#     right-=1
     
-print(count)
+# print(count)
