@@ -21,15 +21,15 @@
 # Input: nums = [1,2,3,4]
 # Output: [24,12,8,6]
 
-nums = [1, 2, 3, 4]
+# nums = [1, 2, 3, 4]
 
-result = []
+# result = []
 
-for i in range(len(nums)):
-    product = 1
-    for j in range(len(nums)):
-        if i != j:
-            product *= nums[j]
-    result.append(product)
+# for i in range(len(nums)):
+#     product = 1
+#     for j in range(len(nums)):
+#         if i != j:
+#             product *= nums[j]
+#     result.append(product)
 
-print(result)
+# print(result)
