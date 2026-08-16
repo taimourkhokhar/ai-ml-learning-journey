@@ -42,5 +42,29 @@ import pandas as pd
 # print(dataframe)
 
 
-df = pd.read_csv("Week-24/scores.csv")
-print(df)
+# Input: s = "abciiidef", k = 3
+# Output: 3
+# Explanation: The substring "iii" contains 3 vowel letters.
+
+import pandas as pd
+
+#aggregate function in pandas
+#  Input: nums = [1,1,1,0,0,0,1,1,1,1,0], k = 2
+# Output: 6
+# Explanation: [1,1,1,0,0,1,1,1,1,1,1]
+
+# nums = [0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1]
+# k=3
+# left=0
+# zero_count=0
+# max_len=0
+# for right in range(len(nums)):
+#   if nums[right]==0:
+#     zero_count+=1
+#   while zero_count>2:
+#     if nums[left]==0:
+#       zero_count-=1
+#     left+=1
+#   max_len=max(max_len,right-left+1)
+
+# print(max_len)
