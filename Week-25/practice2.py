@@ -22,3 +22,46 @@
 
 # nums = [1, 7, 3, 6, 5, 6]
 # print(pivotIndex(nums))  # Output: 3
+
+
+# Example 1:
+
+# Input: arr = [1,2,2,1,1,3]
+# Output: true
+
+# arr=[1,2,2,1,1,3]
+
+# occurence={}
+# for item in arr:
+#   if item in occurence:
+#     occurence[item]+=1
+#   else:
+#     occurence[item]=1
+    
+# print(occurence)
+
+# same=[]
+# for key,val in occurence.items():
+#   if val in same:
+#     print("false")
+#   else:
+#     print("false")
+
+# class Solution:
+
+#   def uniqueOccurrences(self, arr: List[int]) -> bool:
+#     occurence = {}
+#     for item in arr:
+#       if item in occurence:
+#         occurence[item] += 1
+#       else:
+#         occurence[item] = 1
+
+#     same = []
+#     for key, val in occurence.items():
+#       if val in same:
+#         return False
+#       else:
+#         same.append(val)  # Track seen frequencies
+
+#     return True  # Only return True after checking all counts
