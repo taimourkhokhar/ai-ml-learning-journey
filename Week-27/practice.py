@@ -1,3 +1,4 @@
+#stack practice
 # stack=[]
 # stack.append("A")
 # stack.append("B")
