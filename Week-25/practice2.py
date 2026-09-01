@@ -64,4 +64,39 @@
 #       else:
 #         same.append(val)  # Track seen frequencies
 
-#     return True  # Only return True after checking all counts
+#     return True  # Only return True after checking all counts]
+
+
+# stack = []
+
+# # PUSH
+# stack.append(10)
+# stack.append(20)
+
+# # POP
+# print(stack.pop())  # 20
+
+# # PEEK
+# if stack:  # Always check if the list is not empty before peeking
+#     print(stack[-1])  # 10
+
+
+# Input: s = "leet**cod*e"
+# Output: "lecoe"
+# Explanation: Performing the removals from left to right:
+# - The closest character to the 1st star is 't' in "leet**cod*e". s becomes "lee*cod*e".
+# - The closest character to the 2nd star is 'e' in "lee*cod*e". s becomes "lecod*e".
+# - The closest character to the 3rd star is 'd' in "lecod*e". s becomes "lecoe".
+# There are no more stars, so we return "lecoe".
+
+s="leet**cod*e"
+stack=[]
+for i in s:
+  if i=="*":
+    if stack:
+      stack.pop()
+    else:
+      stack.append(i)
+result="".join(stack)
+print(result)
+      
