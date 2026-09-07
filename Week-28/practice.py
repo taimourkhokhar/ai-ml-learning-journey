@@ -59,3 +59,24 @@
 #   i+=1
   
 # print(even_count)
+
+def is_prime(n):
+    if n <= 1:
+        return False
+        
+    # Check every number from 2 up to n-1
+    for i in range(2, n):
+        if n % i == 0:
+            return False
+            
+    return True
+
+# Ask the user to input a number and convert it to an integer
+user_input = input("Enter a number to check: ")
+num = int(user_input)
+
+# Check and print the result
+if is_prime(num):
+    print(f"{num} is a prime number! 🎉")
+else:
+    print(f"{num} is not a prime number. ❌")
