@@ -55,3 +55,23 @@
 # print(p1.city)
 # print(p1.country)
 
+# Input: word1 = "abc", word2 = "pqr"
+# Output: "apbqcr"
+# word1="abc" 
+# word2="pqr"
+# mergerd=[]
+# for i , j in zip(word1,word2):
+#     mergerd.append(i)
+#     mergerd.append(j)
+# print("".join(mergerd))
+
+# Input: word1 = "ab", word2 = "pqrs"
+word1="pqrs"
+word2="ab"
+merged=[]    
+for i,j in zip(word1,word2):
+   merged.append(i)
+   merged.append(j)
+   remain=min(len(word1),len(word2))
+   remain=word2[2:] or word1[2:]
+print("".join(merged)+remain)
