@@ -66,12 +66,15 @@
 # print("".join(mergerd))
 
 # Input: word1 = "ab", word2 = "pqrs"
-word1="pqrs"
-word2="ab"
+word1="abc"
+
+word2="pqr"
+
+
 merged=[]    
 for i,j in zip(word1,word2):
    merged.append(i)
    merged.append(j)
    remain=min(len(word1),len(word2))
-   remain=word2[2:] or word1[2:]
-print("".join(merged)+remain)
+   last=word1[remain:] or word2[remain:]
+print("".join(merged)+last)
