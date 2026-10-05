@@ -16,3 +16,27 @@ def longestCommonPrefix(strs):
         return first_str
 
 print(longestCommonPrefix(strs))
+
+
+class Solution:
+    def summaryRanges(self, nums: list[int]) -> list[str]:
+        result = []
+        i = 0
+        n = len(nums)
+        
+        while i < n:
+            start = nums[i]
+            
+            # Move i forward while consecutive elements differ by 1
+            while i + 1 < n and nums[i + 1] == nums[i] + 1:
+                i += 1
+            
+            # Format range
+            if start == nums[i]:
+                result.append(str(start))
+            else:
+                result.append(f"{start}->{nums[i]}")
+            
+            i += 1
+            
+        return result
