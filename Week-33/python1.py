@@ -51,3 +51,36 @@
 #     print("B grade")
 # else:
 #     print("We just count 2 grades")
+
+# num = int(input("Enter a number: "))
+
+
+# def prime(num):
+#     if num <= 1:
+#         print("Not a prime number")
+#         return
+
+#     for i in range(2, num):
+#         if num % i == 0:
+#             print("Not a prime number")
+#             return
+#     else:
+#         print("Prime number")
+
+
+# prime(num)
+
+# ls=[1,2,3,-1,0]
+# postive=0
+# negative=0
+# zero_value=0
+# sum=0
+# for i in ls:
+#     if i>0:
+#         postive+=1
+#     elif i<0:
+#         negative+=1
+#     else:
+#         zero_value+=1
+#     sum+=i
+# print(sum,postive,negative,zero_value)
