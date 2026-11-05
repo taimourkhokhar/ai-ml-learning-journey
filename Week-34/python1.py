@@ -47,10 +47,66 @@
 # dg=Dog()
 # dg.make_sound()
 
-def count_upto(n):
-    count=1
-    while count<=n:
-        yield count
-        count+=1
-for num in count_upto(10):
-    print(num)
+# def count_upto(n):
+#     count=1
+#     while count<=n:
+#         yield count
+#         count+=1
+# for num in count_upto(10):
+#     print(num)
+
+
+# def even_number():
+#     count=1
+#     while count<=50:
+#         if count%2==0:
+#             yield count
+        
+#         count+=1
+# for num in even_number():
+#     print(num)
+
+# def read_line():
+#  with open("learning_log.txt","r") as f:
+#     for i in f.read().splitlines():
+#       if "error" in i:
+#         yield i
+# for value  in read_line():
+#   print(value)
+
+# numbers = [10, 20, 30, 40, 50]
+# myit=iter(numbers)
+# print(next(myit))
+
+# class countdown:
+#     def __init__(self,start):
+#         self.current=start
+#     def __iter__(self):
+#         return self
+#     def __next__(self):
+#         if self.current<0:
+#             raise StopIteration
+#         value=self.current
+#         self.current-=1
+#         return value
+
+# Countdown=countdown(5)
+# for num in Countdown:
+#     print(num)
+
+# class MyNumbers:
+#     def __iter__(self):
+#         self.a=1
+#         return self
+#     def __next__(self):
+#         if self.a<=20:
+#             x=self.a
+#             self.a+=1
+#             return x
+#         else:
+#             raise StopIteration
+# myclass = MyNumbers()
+# myiter = iter(myclass)
+
+# for x in myiter:
+#   print(x)
