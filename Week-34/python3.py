@@ -47,3 +47,17 @@
 #         i
 
 # iterations()  
+
+# num1 = "11"
+# num2 = "123"
+# sum=0
+# for i,j in zip(num1,num2):
+#     sum+=num1
+#     sum+=num2
+# print(sum)
+out=[]
+s = "Let's take LeetCode contest"
+for i in s.split():
+    out.append(i[::-1])
+sti=str(out)
+print(sti)
