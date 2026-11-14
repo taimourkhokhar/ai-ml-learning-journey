@@ -110,3 +110,40 @@
 
 # for x in myiter:
 #   print(x)
+
+
+# Input: nums = [0,1,0,3,12]
+# Output: [1,3,12,0,0]
+# nums=[0,1,0,3,12]
+# left=0
+# right=len(nums)-1
+# while left<right:
+#     if nums[right]!=0:
+#         nums[left],nums[right]=nums[right],nums[left]
+#         left+=1
+#         right-=1
+#     else:
+#         left+=1
+#         right-=1
+# print(nums)
+
+
+
+nums = [0, 1, 0, 3, 12]
+left = 0
+right = len(nums) - 1
+
+while left < right:
+    if nums[left] != 0:
+        # Left is already non-zero, leave it and check the next element
+        left += 1
+    elif nums[right] == 0:
+        # Right is already zero, leave it and move inward
+        right -= 1
+    else:
+        # nums[left] is 0 and nums[right] is non-zero -> Swap!
+        nums[left], nums[right] = nums[right], nums[left]
+        left += 1
+        right -= 1
+
+print(nums)  # Output: [12, 1, 3, 0, 0]
