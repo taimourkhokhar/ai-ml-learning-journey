@@ -89,14 +89,14 @@ import json
 # except ValueError as e:
 #     print("Error:", e)
 
-class Bank:
-    def __init__(self,holder,balance):
-        self.holder=holder
-        self.balance=balance
-    def deposit(self):
-        dp=int(input("Enter a money "))
-        self.balance+=dp
-        print(self.balance)
-bn=Bank("Taimour",3000)
-bn.deposit()
+# class Bank:
+#     def __init__(self,holder,balance):
+#         self.holder=holder
+#         self.balance=balance
+#     def deposit(self):
+#         dp=int(input("Enter a money "))
+#         self.balance+=dp
+#         print(self.balance)
+# bn=Bank("Taimour",3000)
+# bn.deposit()
 
